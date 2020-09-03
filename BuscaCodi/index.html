@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>CodigoPostal</title>
+    <meta charset="utf-8"/>
+    <!-- per a que s'executin les funcions de jquery, primer em de linkar la jquery general, i DESPRES la jquery-UI. i despres la jquery.css-->
+    <script type="text/javascript" src="jq/jquery311.js"></script>
+    <script type="text/javascript" src="jq/jquery-ui.min.1121.js"></script>
+    <script type="text/javascript" src="js/obtenir_op.js"></script>
+    <link rel="stylesheet" href="css/estils_postal.css"/>
+  </head>
+  <body>
+
+  	<div id="contenido">
+
+  		<div id="titol"> <h1>Buscar Codi Postal</h1></div>
+
+      <div class="caja">
+        <form method="post" id="formu">
+          <label><b>Sel.lecciona una provincia: </b></label><br><br>
+          <div id="provincies">
+            <select class="prov"></select>
+          </div>
+          <br>
+          <div id="municipis">
+            <select class="muni"></select>
+          </div>
+        </form>
+      </div>
+      <div id="resposta">
+      </div>
+
+	</div>
+
+	<div id="firma"><p>Created By: Heber Flotats</p></div>
+
+  </body>
+</html>
